@@ -16,7 +16,6 @@ export default function RootLayout({ children }) {
         </div> */}
         <main>
           {children}
-          <Script src='../../script.js' strategy='beforeInteractive/'/>
         </main>
         
       </body>

@@ -9,7 +9,7 @@ const allRequestsPage = () => {
         <h1> Server Components: </h1>
         <div id="server-fetch-get" className="border-2 border-pink-200 p-5">
           <h1> Request type: server-fetch-get </h1>
-          <AllMembersCard/>
+          {/* <AllMembersCard/> */}
         </div>
         {/* <div id="server-fetch-post-get" className="border-2 border-pink-200 p-5">
           <h1> Request type: server-fetch-post </h1>
@@ -29,7 +29,7 @@ const allRequestsPage = () => {
         <h1> Client Components: </h1>
         <div id="client-fetch-get" className="border-2 border-pink-200 p-5">
           <h1> Request type: client-fetch-get with update button that makes client-fetch-patch-get </h1>
-          <AllRamensCard/>
+          {/* <AllRamensCard/> */}
           
         </div>
         {/* <div id="client-fetch-post-get" className="border-2 border-pink-200 p-5">
